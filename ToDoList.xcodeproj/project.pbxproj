@@ -31,6 +31,7 @@
 		A4BCCC4D2A000B5B00AAF868 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BCCC4C2A000B5B00AAF868 /* NewItemView.swift */; };
 		A4BCCC4F2A000B7600AAF868 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BCCC4E2A000B7600AAF868 /* LoginView.swift */; };
 		A4BCCC512A000B8200AAF868 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BCCC502A000B8200AAF868 /* RegisterView.swift */; };
+		A4DA90152A06C94F000E713B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DA90142A06C94F000E713B /* Extensions.swift */; };
 		A4E8D71C2A016EC700075656 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E8D71B2A016EC700075656 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		A4BCCC4C2A000B5B00AAF868 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
 		A4BCCC4E2A000B7600AAF868 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A4BCCC502A000B8200AAF868 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		A4DA90142A06C94F000E713B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A4E8D71B2A016EC700075656 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 				A4AAA3DF2A000EC000A83E68 /* GoogleService-Info.plist */,
 				A4BCCC312A0000B800AAF868 /* Assets.xcassets */,
 				A4BCCC2D2A0000B700AAF868 /* ToDoListApp.swift */,
+				A4DA90142A06C94F000E713B /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				A4AAA3F82A00127700A83E68 /* LoginViewViewModel.swift in Sources */,
 				A4AAA3F62A0011A800A83E68 /* ToDoListItem.swift in Sources */,
 				A4AAA3EE2A00112700A83E68 /* NewItemViewViewModel.swift in Sources */,
+				A4DA90152A06C94F000E713B /* Extensions.swift in Sources */,
 				A4AAA3E22A00105100A83E68 /* ToDoListItemView.swift in Sources */,
 				A4AAA3EC2A00111A00A83E68 /* ToDoListViewViewModel.swift in Sources */,
 				A4BCCC4D2A000B5B00AAF868 /* NewItemView.swift in Sources */,
