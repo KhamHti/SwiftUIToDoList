@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4978A532A067AAC00511F7E /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4978A522A067AAC00511F7E /* TLButton.swift */; };
 		A4AAA3E02A000EC000A83E68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4AAA3DF2A000EC000A83E68 /* GoogleService-Info.plist */; };
 		A4AAA3E22A00105100A83E68 /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAA3E12A00105100A83E68 /* ToDoListItemView.swift */; };
 		A4AAA3E42A0010A800A83E68 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAA3E32A0010A800A83E68 /* User.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A4978A522A067AAC00511F7E /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		A4AAA3DF2A000EC000A83E68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A4AAA3E12A00105100A83E68 /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
 		A4AAA3E32A0010A800A83E68 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				A4BCCC502A000B8200AAF868 /* RegisterView.swift */,
 				A4AAA3E12A00105100A83E68 /* ToDoListItemView.swift */,
 				A4E8D71B2A016EC700075656 /* HeaderView.swift */,
+				A4978A522A067AAC00511F7E /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				A4AAA3F22A00114500A83E68 /* RegisterViewViewModel.swift in Sources */,
 				A4BCCC512A000B8200AAF868 /* RegisterView.swift in Sources */,
 				A4BCCC492A000B1000AAF868 /* ProfileView.swift in Sources */,
+				A4978A532A067AAC00511F7E /* TLButton.swift in Sources */,
 				A4AAA3E42A0010A800A83E68 /* User.swift in Sources */,
 				A4AAA3EA2A00110F00A83E68 /* ProfileViewViewModel.swift in Sources */,
 				A4BCCC2E2A0000B700AAF868 /* ToDoListApp.swift in Sources */,
