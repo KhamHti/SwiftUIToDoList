@@ -7,3 +7,9 @@
 
 import SwiftUI
 import Foundation 
+
+// viewmodel for single list item view
+// single item list
+class ToDoListItemViewViewModel: ObservableObject {
+    init() {}
+}

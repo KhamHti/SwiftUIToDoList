@@ -7,3 +7,9 @@
 
 import SwiftUI
 import Foundation
+
+// viewmodel for list items view
+// primary tab
+class ToDoListViewViewModel: ObservableObject {
+    init() {}
+}

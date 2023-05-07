@@ -7,3 +7,7 @@
 
 import SwiftUI
 import Foundation
+
+class NewItemViewViewMOdel: ObservableObject {
+    init() {}
+}
