@@ -132,12 +132,12 @@
 			isa = PBXGroup;
 			children = (
 				A4AAA3E72A00110300A83E68 /* MainViewViewModel.swift */,
+				A4AAA3F72A00127700A83E68 /* LoginViewViewModel.swift */,
 				A4AAA3E92A00110F00A83E68 /* ProfileViewViewModel.swift */,
-				A4AAA3EB2A00111A00A83E68 /* ToDoListViewViewModel.swift */,
 				A4AAA3ED2A00112700A83E68 /* NewItemViewViewModel.swift */,
 				A4AAA3F12A00114500A83E68 /* RegisterViewViewModel.swift */,
 				A4AAA3F32A00115900A83E68 /* ToDoListItemViewViewModel.swift */,
-				A4AAA3F72A00127700A83E68 /* LoginViewViewModel.swift */,
+				A4AAA3EB2A00111A00A83E68 /* ToDoListViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
