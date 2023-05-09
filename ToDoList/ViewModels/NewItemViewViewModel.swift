@@ -8,6 +8,13 @@
 import SwiftUI
 import Foundation
 
-class NewItemViewViewMOdel: ObservableObject {
+class NewItemViewViewModel: ObservableObject {
+    @Published var title = ""
+    @Published var dueDate = Date()
+    
     init() {}
+    
+    func save () {
+        //
+    }
 }
