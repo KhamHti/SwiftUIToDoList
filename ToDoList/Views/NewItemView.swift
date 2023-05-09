@@ -32,11 +32,17 @@ struct NewItemView: View {
                     title: "Save",
                     background: .blue)
                 {
-                    // action
-                    viewModel.save()
-                    newItemPresented = false
+                    if viewModel.canSave {
+                        viewModel.save()
+                        newItemPresented = false
+                    } else {
+                        viewModel.showAlert = true
+                    }
                 }
                 .padding()
+            }
+            .alert(isPresented: $viewModel.showAlert) {
+                Alert(title: Text("Error"), message: Text("Please fill in title and select date and time."))
             }
         }
     }
