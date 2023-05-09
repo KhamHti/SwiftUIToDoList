@@ -11,5 +11,7 @@ import Foundation
 // viewmodel for list items view
 // primary tab
 class ToDoListViewViewModel: ObservableObject {
+    @Published var showingNewItemView = false
+    
     init() {}
 }
