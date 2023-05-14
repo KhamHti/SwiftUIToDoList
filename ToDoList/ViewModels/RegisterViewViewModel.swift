@@ -25,11 +25,11 @@ class RegisterViewViewModel: ObservableObject {
                 return
             }
             
-            self?.insertUser(id: userId)
+            self?.insertUserRecord(id: userId)
         }
     }
     
-    private func insertUser(id: String){
+    private func insertUserRecord(id: String){
         let newUser = User(id: id,
                            email: email,
                            name: name,
