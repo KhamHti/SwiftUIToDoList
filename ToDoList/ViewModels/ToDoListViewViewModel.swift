@@ -5,7 +5,7 @@
 //  Created by Khun Kyaw Kham Hti on 01/05/2023.
 //
 
-import SwiftUI
+import FirebaseFirestore
 import Foundation
 
 // viewmodel for list items view
@@ -13,9 +13,21 @@ import Foundation
 class ToDoListViewViewModel: ObservableObject {
     @Published var showingNewItemView = false
     
-    init() {}
+    private let userId: String
     
+    init(userId: String) {
+        self.userId = userId
+    }
+    
+    /// Delete to do list item
+    /// - Parameter id: item id to delete
     func delete(id: String) {
+        let db = Firestore.firestore()
         
+        db.collection("users")
+            .document(userId)
+            .collection("todos")
+            .document(id)
+            .delete()
     }
 }
